@@ -12,7 +12,7 @@ namespace KhoManagement.DAO
     {
         private DataProvider() { }
         private static DataProvider instance;
-        private string strConn = @"Data Source=DESKTOP-32HIUAH;Initial Catalog=Kho;Integrated Security=True";
+        private string strConn = @"Data Source=HUYNGUYEN\SQLEXPRESS;Initial Catalog=QuanLyKho2;Integrated Security=True";
 
         public static DataProvider Instance
         {

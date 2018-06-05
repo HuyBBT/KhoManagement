@@ -11,3 +11,15 @@ C:\Users\Cau Huy\Documents\Visual Studio 2015\Projects\KhoManagement\KhoManageme
 C:\Users\Cau Huy\Documents\Visual Studio 2015\Projects\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmDangNhap.resources
 C:\Users\Cau Huy\Documents\Visual Studio 2015\Projects\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmHuongDan.resources
 C:\Users\Cau Huy\Documents\Visual Studio 2015\Projects\KhoManagement\KhoManagement\obj\Debug\KhoManagement.csprojResolveAssemblyReference.cache
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\bin\Debug\KhoManagement.exe.config
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.exe
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.pdb
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.csprojResolveAssemblyReference.cache
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmDangNhap.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmHuongDan.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmQuanLyKho.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmTaiKhoan.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\Quanlykho.Nhapkho.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.Properties.Resources.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\Quanlykho.Thongke.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.csproj.GenerateResource.Cache
