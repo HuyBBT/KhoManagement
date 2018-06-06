@@ -29,19 +29,18 @@ namespace Quanlykho
             SqlCommand command = new SqlCommand();
             command.Connection = conn;
             command.CommandType = CommandType.Text;
-            command.CommandText = @"SELECT dbo.HangHoa.MaHang AS 'Mã hàng',dbo.HangHoa.TenHang AS 'Tên hàng',SUM(SoLuong) AS 'Số lượng',HangHoa.DonVi AS 'Đơn vị'
-                                    FROM dbo.HangNhap,dbo.HangHoa
-                                    WHERE dbo.HangNhap.MaHang=dbo.HangHoa.MaHang 
-                                    GROUP BY HangHoa.MaHang,dbo.HangHoa.TenHang,dbo.HangHoa.DonVi";
+            command.CommandText = @"select TKN.MaHang,TKN.TenHang, TKN.TN - coalesce(TKX.TX,0) 
+                                    FROM (select dbo.HangNhap.MaHang,dbo.HangHoa.TenHang, sum(dbo.HangNhap.SoLuong) as TN from dbo.HangNhap,dbo.HangHoa WHERE dbo.HangNhap.MaHang=dbo.HangHoa.MaHang GROUP BY dbo.HangNhap.MaHang,dbo.HangHoa.TenHang) as TKN
+                                    left join (select dbo.HangXuat.MaHang, sum(dbo.HangXuat.SoLuong) as TX from dbo.HangXuat GROUP BY dbo.HangXuat.MaHang) AS TKX on TKN.MaHang = TKX.MaHang";
+
             command.Connection = conn;
             Lvthongke.Items.Clear();
             SqlDataReader reader = command.ExecuteReader();
             while (reader.Read())
             {
-                ListViewItem lvi = new ListViewItem(reader.GetString(0));
-                lvi.SubItems.Add(reader.GetString(1));
+                ListViewItem lvi = new ListViewItem(reader[0].ToString());
+                lvi.SubItems.Add(reader[1].ToString());
                 lvi.SubItems.Add(reader[2].ToString());
-                lvi.SubItems.Add(reader.GetString(3));
                 Lvthongke.Items.Add(lvi);
             }
             reader.Close();

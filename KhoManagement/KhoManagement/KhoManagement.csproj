@@ -59,11 +59,23 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHanghoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHanghoa.Designer.cs">
+      <DependentUpon>frmHanghoa.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmHuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmHuongDan.Designer.cs">
       <DependentUpon>frmHuongDan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmnhacungcap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmnhacungcap.Designer.cs">
+      <DependentUpon>frmnhacungcap.cs</DependentUpon>
     </Compile>
     <Compile Include="frmQuanLyKho.cs">
       <SubType>Form</SubType>
@@ -76,6 +88,12 @@
     </Compile>
     <Compile Include="frmTaiKhoan.Designer.cs">
       <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmxuatkho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmxuatkho.Designer.cs">
+      <DependentUpon>Frmxuatkho.cs</DependentUpon>
     </Compile>
     <Compile Include="Nhapkho.cs">
       <SubType>Form</SubType>
@@ -94,14 +112,23 @@
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHanghoa.resx">
+      <DependentUpon>frmHanghoa.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmHuongDan.resx">
       <DependentUpon>frmHuongDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmnhacungcap.resx">
+      <DependentUpon>frmnhacungcap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKho.resx">
       <DependentUpon>frmQuanLyKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTaiKhoan.resx">
       <DependentUpon>frmTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmxuatkho.resx">
+      <DependentUpon>Frmxuatkho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nhapkho.resx">
       <DependentUpon>Nhapkho.cs</DependentUpon>
@@ -119,6 +146,7 @@
     <EmbeddedResource Include="Thongke.resx">
       <DependentUpon>Thongke.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

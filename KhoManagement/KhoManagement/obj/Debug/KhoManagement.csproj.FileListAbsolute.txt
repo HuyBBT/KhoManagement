@@ -23,3 +23,8 @@ E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\Quanlykho.Nhapkh
 E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.Properties.Resources.resources
 E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\Quanlykho.Thongke.resources
 E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.csproj.GenerateResource.Cache
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\bin\Debug\KhoManagement.exe
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\bin\Debug\KhoManagement.pdb
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmHanghoa.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.frmnhacungcap.resources
+E:\Dự án\KhoManagement\KhoManagement\KhoManagement\obj\Debug\KhoManagement.Frmxuatkho.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Quanlykho;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +30,7 @@ namespace KhoManagement
         #region event
         private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmThongKe f = new frmThongKe();
+            Thongke f = new Thongke();
             this.Hide();
             f.ShowDialog();
             this.Show();
@@ -51,5 +52,37 @@ namespace KhoManagement
             this.Show();
         }
         #endregion
+
+        private void nhậpKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nhapkho f = new Nhapkho();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void hàngHóaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHanghoa f = new frmHanghoa();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void nhàCungCấpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmnhacungcap f = new frmnhacungcap();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void xuấtKhoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frmxuatkho f = new Frmxuatkho();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }
